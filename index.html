@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>elvi-nails</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="preconnect", href="https://fonts.googleapis.com">
+  <link rel="preconnect", href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+  <!--header-->
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo-wrapper">
+          <a href="#" class="header__logo-link">
+            <img class="header__logo" src="images/logo-1.png" alt="logo">
+          </a>
+        </div>
+        <ul class="list header__list">
+          <li class="list__item">
+            <a class="header__link list__link" href="#">Обо мне</a>
+          </li>
+          <li class="list__item">
+            <a class="header__link list__link" href="#">Услуги</a>
+          </li>
+          <li class="list__item">
+            <a class="header__link list__link" href="#">Портфолио</a>
+          </li>
+          <li class="list__item">
+            <a class="header__link list__link" href="#">Прайс</a>
+          </li>
+          <li class="list__item">
+            <a class="header__link list__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <a class="header__link phone" href="tel:+79081146363">
+          <span class="icon-phone"></span>
+          <span>+79081146363</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!--/header-->
+  
+  <!--desktop-->
+  <section class="desktop">
+    <div class="container container-content">
+      <div class="desktop-inner">
+        <div class="desktop__box desktop__box_left">
+          <h3 class="title desktop__title">
+            <span class="desktop__title__box">Привет!</span>
+            <span class="desktop__title__box">Меня зовут
+              <span class="desktop__title__box_name">Эльвира</span>
+            </span>
+          </h3>
+          <div class="desktop__info">
+            <div class="desktop__info__item">Я сертифицированный мастер маникюра.</div>
+            <div class="desktop__info__item">Моя главная цель — чтобы каждая девушка или женщина могла получить качественные услуги маникюра по приемлемой цене.</div>
+            <div class="desktop__info__item">Буду стараться, чтобы Вы остались довольны и, как следствие, у Вас возникло желание ко мне вернуться.</div>
+          </div>
+          <a class="btn" href="#about">Подробнее →</a>
+        </div>
+        <div class="desktop__box desktop__box_right">
+          <img class="desktop__box__image" src="images/d.JPG" alt="photo_1">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/desktop-->
+  
+  <!--about-->
+  <section class="about" id="about">
+    <div class="container container-content">
+      <div class="about-inner">
+        <div class="about__box about__box_left">
+          <a class="btn-popup" href="#">
+            <img class="about__box__image" src="images/s.JPG" alt="sertificate">
+          </a>
+        </div>
+        <div class="about__box about__box_right">
+          <h3 class="title-3 about__title">О моей работе</h3>
+          <ul class="about__list">
+            <li class="about__list__item">Все инструменты проходят тщательную стерилизацию по нормам СанПиН.</li>
+            <li class="about__list__item">Работаю на дому. Также есть возможность выезда к Вам.</li>
+            <li class="about__list__item">Время моей работы занимает около 3,0-3,5 часов.</li>
+            <li class="about__list__item">Мои принципы работы – удобство, качество, безопасность. Учту все ваши пожелания.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+
+  <!--services-->
+  <section class="services" id="services">
+    <div class="container container-content">
+      <div class="services-inner">
+        <div class="title-3 services__title">Услуги </div>
+        <div class="services-swiper services__card-wrapper">
+          <div class="swiper-wrapper services-swiper-wrapper">
+            <div class="services__card services__card_1 swiper-slide">
+              <div class="services__card__info">
+                <div class="services__card__title">Маникюр </div>
+                <div class="services__card__price">Цена 500 руб.</div>
+              </div><a class="services__card__btn" href="#feedback">Записаться →</a>
+            </div>
+            <div class="services__card services__card_2 swiper-slide">
+              <div class="services__card__info">
+                <div class="services__card__title">Педикюр (только пальчики) </div>
+                <div class="services__card__price">Цена 800 руб.</div>
+              </div><a class="services__card__btn" href="#feedback">Записаться →</a>
+            </div>
+            <div class="services__card services__card_3 swiper-slide">
+              <div class="services__card__info">
+                <div class="services__card__title">Массаж рук</div>
+                <div class="services__card__price">Цена 200 руб.</div>
+              </div><a class="services__card__btn" href="#feedback">Записаться →</a>
+            </div>
+          </div>
+        </div>
+        <div class="services-swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!--/services-->
+
+  <!--portfolio-->
+  <section class="portfolio" id="portfolio">
+    <div class="container container-content">
+      <div class="portfolio-inner">
+        <h3 class="title-3 portfolio__title">Мои работы</h3>
+        <div class="slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/1.jpg" alt="photo-1"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/2.jpg" alt="photo-2"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/3.jpg" alt="photo-3"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/4.jpg" alt="photo-4"/></div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/5.jpg" alt="photo-5"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/6.jpg" alt="photo-6"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/7.jpg" alt="photo-7"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/8.jpg" alt="photo-8"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/9.jpg" alt="photo-9"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/10.jpg" alt="photo-10"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/11.jpg" alt="photo-11"/>
+              </div>
+              <div class="swiper-slide slide">
+                <img src="images/portfolio/12.jpg" alt="photo-12"/>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/portfolio-->
+
+  <!--instruments-->
+  <section class="instruments">
+    <div class="container">
+      <div class="instruments-inner">
+        <h3 class="title-3 instruments__title">Все инструменты проходят тщательную стерилизацию по нормам СанПин</h3>
+        <div class="instruments__box-wrapper">
+          <div class="instruments__box">
+            <div class="instruments__box__image-wrapper"><img class="instruments__box__image" alt="photo-1" /></div>
+            <div class="instruments__box__title">Обеззораживание</div>
+            <div class="instruments__box__info"> Перед процедурой мастер дезинфицирует антисептическим средством руки
+              клиента и свои руки.
+              Надевает одноразовые перчатки и маску. Если при выполнении маникюра возникает микротрамва,
+              то мастер обеззараживает рану профессиональным средством с бактерицидным воздействием.</div>
+          </div>
+          <div class="instruments__box">
+            <div class="instruments__box__image-wrapper"><img class="instruments__box__image" alt="photo-2" /></div>
+            <div class="instruments__box__title">Предстеризационная чистка</div>
+            <div class="instruments__box__info"> После окончания каждой процедуры все инструменты помещаются в
+              ультразвуковую мойку с дезинфицирующим раствором.
+              Под воздействием ультразвуковых волн высокой частоты с инструментов смывается поверхностная грязь.
+              После каждой ультразвуковой чистки дезинфицирующий раствор меняется.</div>
+          </div>
+          <div class="instruments__box">
+            <div class="instruments__box__image-wrapper"><img class="instruments__box__image" alt="photo-3" /></div>
+            <div class="instruments__box__title">Стерилизация</div>
+            <div class="instruments__box__info"> Чтобы обеспечить полное уничтожение микроорганизмов, инструменты
+              стерилизуются в
+              сухожаровом шкафу при 180 градусов около 60 минут.
+              Перед стерилизцией инструменты помещаются в одноразовый крафт-пакет,
+              который обеспечивает защиту инстументов до их следующего использования.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/instruments-->
+
+  <!--pricelist-->
+  <section class="pricelist" id="pricelist">
+    <div class="container container-content">
+      <div class="pricelist-inner">
+        <h3 class="title-3 pricelist__title">Прайслист на услуги</h3>
+        <table class="table">
+          <tr class="table__row">
+            <td class="table__data">Маникюр</td>
+            <td class="table__data table__data_price">500 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Педикюр (только пальчики)</td>
+            <td class="table__data table__data_price">800 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Маникюр без покрытия</td>
+            <td class="table__data table__data_price">300 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Педикюр (только пальчики) без покрытия</td>
+            <td class="table__data table__data_price">400 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Снятие без последующего покрытия</td>
+            <td class="table__data table__data_price">150 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Ремонт одного ногтя</td>
+            <td class="table__data table__data_price">50 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Массаж рук</td>
+            <td class="table__data table__data_price">200 ₽</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__data">Выезд</td>
+            <td class="table__data table__data_price">В зависимости от удаленности</td>
+          </tr>
+        </table>
+        <div class="pricelist__description-wrapper"> 
+          <span class="pricelist__description"> 
+            <span class="pricelist__description_star">*</span>
+            <span>Легкий дизайн в подарок </span>
+          </span>
+          <span class="pricelist__description">
+            <span class="pricelist__description_star">*</span>
+            <span>Наращивание не делаю</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/pricelist-->
+
+  <!--feedback-->
+  <section class="feedback" id="feedback">
+    <div class="container container-content">
+      <div class="feedback-inner">
+        <h3 class="title-3 feedback__title">Остались вопросы?</h3>
+        <form class="feedback__form" action="">
+          <input class="feedback__input" type="text" placeholder="Имя" />
+          <input class="feedback__input" type="text" placeholder="Телефон" />
+          <input class="feedback__input" type="text" placeholder="Услуга" />
+          <button class="btn btn-3 feedback__btn">Отправить *<span>Наращивание не делаю</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--/feedback-->
+
+  <!--contacts-->
+  <section class="contacts" id="contacts">
+    <div class="container container-content">
+      <div class="contacts-inner">
+        <div class="contacts__box contacts__box_left">
+          <h3 class="title-3 contacts__title">Контакты</h3>
+          <ul class="contacts__list">
+            <li class="contacts__list__item"> 
+              <span class="icon-phone"></span>
+              <span>+79081146363</span>
+            </li>
+            <li class="contacts__list__item">
+              <span class="icon-location"></span>
+              <span>Омск, ул. Заозёрная, 16</span>
+            </li>
+            <li class="contacts__list__item">
+              <span class="icon-location"></span>
+              <span>Омск, ул. 14-й Военный городок, 144</span>
+            </li>
+          </ul>
+          <a class="contacts__link" href="#feedback">Записаться →</a>
+        </div>
+        <div class="contacts__box">
+          <div class="map" id="map">
+            <iframe class="frame-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaff77cf948e747a56c4afc73ff1ce8e3b99cf12cb77bb931d53730c8c26daeda&amp;source=constructor"width="100%" height="500" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/contacts-->
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer__box">
+          <a class="footer__logo-link" href="#">
+            <img class="footer__logo" alt="logo"/>
+          </a>
+        </div>
+        <div class="footer__box">
+          <a class="footer__contact footer__contact_phone" href="tel:+79081146363">
+            <span class="icon-phone"></span>
+            <span>+79081146363</span>
+          </a>
+          <div class="footer__contact">
+            <span class="icon-location"></span>
+            <span>ул. Заозёрная, 16 </span>
+          </div>
+          <div class="footer__contact">
+            <span class="icon-location"></span>
+            <span>ул. 14-й Военный городок, 144</span>
+          </div>
+        </div>
+        <div class="footer__box">
+          <div class="footer__title">Мои социальные сети</div>
+          <div class="footer__social-wrapper">
+            <a class="footer__social" href="#">
+              <img class="footer__social__image" alt="icon"/>
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__social__image" alt="icon"/>
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__social__image" alt="icon"/>
+            </a>
+            <a class="footer__social" href="#">
+              <img class="footer__social__image" alt="icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
